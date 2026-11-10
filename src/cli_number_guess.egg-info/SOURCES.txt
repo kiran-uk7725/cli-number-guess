@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/cli_number_guess/__init__.py
+src/cli_number_guess/__main__.py
+src/cli_number_guess/game.py
+src/cli_number_guess.egg-info/PKG-INFO
+src/cli_number_guess.egg-info/SOURCES.txt
+src/cli_number_guess.egg-info/dependency_links.txt
+src/cli_number_guess.egg-info/requires.txt
+src/cli_number_guess.egg-info/top_level.txt
+tests/test_game.py
