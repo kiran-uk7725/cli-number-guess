@@ -1,4 +1,5 @@
 import random
+from cli_number_guess.utils.records import load_records, save_records
 from dataclasses import dataclass
 from pathlib import Path
 import sys
@@ -116,7 +117,8 @@ def display_bestscore(records: dict[str, int]) -> None:
 
 def main():
     """Run the game loop and keep best scores for the current session."""
-    records = {}
+    records_loc = Path()
+    records = load_records()
 
     while True:
         try:
